@@ -1,4 +1,4 @@
-import  Prism from 'prismjs'
+const Prism=require('prismjs')
 
 const VuePrism = {
 
@@ -12,4 +12,4 @@ const VuePrism = {
     }
 }
 
-export default VuePrism;
+module.exports=VuePrism;
